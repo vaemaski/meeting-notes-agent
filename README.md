@@ -68,6 +68,7 @@ To enable demo mode for testing without authentication:
 1. Set the following environment variable:
    ```bash
    DEMO_MODE=true
+   python test_demo_mode.py
    ```
 
 2. The application will simulate the agent's actions and provide feedback without requiring Google authentication.
@@ -77,12 +78,11 @@ To enable demo mode for testing without authentication:
 - Check that your OAuth 2.0 credentials are correctly configured.
 - If you encounter authentication errors, verify that the redirect URIs are set correctly in the Google Cloud Console.
 
-## License
-This project is licensed under the MIT License.
+
 
 ## Acknowledgments
 - Portia AI for providing the underlying AI capabilities.
 - Streamlit for creating the user interface.
 
 ## Contact
-For any questions or feedback, please reach out to [your-email@example.com].
+For any questions or feedback, please reach out to [vaishali.ds0228@gmail.com].
