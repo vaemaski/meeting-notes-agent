@@ -1,0 +1,9 @@
+streamlit
+portia-sdk-python==0.1.0
+google-generativeai
+python-dotenv
+pandas
+plotly
+streamlit-chat
+requests
+python-dateutil
