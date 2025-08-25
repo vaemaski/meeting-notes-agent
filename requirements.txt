@@ -1,7 +1,11 @@
 streamlit
-portia-sdk-python==0.1.0
+
+#portia with Google GenAI extra dependencies
+"portia-sdk-python[google]"
+
 google-generativeai
-python-dotenv
+
+python-dotenv 
 pandas
 plotly
 streamlit-chat

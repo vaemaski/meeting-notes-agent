@@ -2,7 +2,7 @@ import os
 import re
 from datetime import datetime
 from typing import Dict, List
-from portia import Config, Portia, StorageClass
+from portia import Config, Portia, StorageClass, LLMProvider
 from portia.tool_registry import DefaultToolRegistry
 from portia.cli import CLIExecutionHooks
 
@@ -15,7 +15,8 @@ class MeetingNotesAgent:
         """
         self.config = Config.from_default(
             storage_class=StorageClass.CLOUD,
-            model="gemini-1.5-flash"  # Using a powerful and fast model
+            model="gemini-1.5-flash"  # Using a powerful and fast model,
+            llm_provider=LLMProvider.GOOGLE
         )
         
         # This registry gives the agent access to tools like calendar and email.

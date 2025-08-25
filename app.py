@@ -129,7 +129,7 @@ def main():
 
         # Create a progress container to show agent activity
         progress_container = st.empty()
-        progress_container.info("🤖 Agent is analyzing notes, forming a plan, and executing...")
+        progress_container.info("🤖 Agent is analyzing notes, forming a plan, and executing, this may take a while please be patient")
         
         start_time = datetime.now()
         
