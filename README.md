@@ -19,7 +19,7 @@ The Meeting Notes AI Agent is a Python application that utilizes Portia AI to pr
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/vaemaski/meeting-notes-agent.git
    cd <repository-directory>
    ```
 
@@ -44,9 +44,10 @@ The Meeting Notes AI Agent is a Python application that utilizes Portia AI to pr
    ```
 
 5. Set up your environment variables:
-   - Create a `.env` file in the project root and add your Google API key:
+   - Create a `.env` file in the project root and add your Google API key and Portia API key:
      ```bash
      GOOGLE_API_KEY=your_google_api_key_here
+     PORTIA_API_KEY=_portia_api_key
      ```
 
 ## Usage
@@ -68,6 +69,7 @@ To enable demo mode for testing without authentication:
 1. Set the following environment variable:
    ```bash
    DEMO_MODE=true
+   python test_demo_mode.py
    ```
 
 2. The application will simulate the agent's actions and provide feedback without requiring Google authentication.
@@ -77,12 +79,11 @@ To enable demo mode for testing without authentication:
 - Check that your OAuth 2.0 credentials are correctly configured.
 - If you encounter authentication errors, verify that the redirect URIs are set correctly in the Google Cloud Console.
 
-## License
-This project is licensed under the MIT License.
+
 
 ## Acknowledgments
 - Portia AI for providing the underlying AI capabilities.
 - Streamlit for creating the user interface.
 
 ## Contact
-For any questions or feedback, please reach out to [your-email@example.com].
+For any questions or feedback, please reach out to [vaishali.ds0228@gmail.com].
