@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import pytz
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # --- Imports for the new, unified agent ---
 from agent.meeting_agent import MeetingNotesAgent

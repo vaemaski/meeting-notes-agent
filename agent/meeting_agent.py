@@ -15,7 +15,7 @@ class MeetingNotesAgent:
         """
         self.config = Config.from_default(
             storage_class=StorageClass.CLOUD,
-            model="gemini-1.5-flash"  # Using a powerful and fast model,
+            model="gemini-1.5-flash" , # Using a powerful and fast model
             llm_provider=LLMProvider.GOOGLE
         )
         
