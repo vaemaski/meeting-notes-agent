@@ -19,7 +19,7 @@ The Meeting Notes AI Agent is a Python application that utilizes Portia AI to pr
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/vaemaski/meeting-notes-agent.git)
+   git clone https://github.com/vaemaski/meeting-notes-agent.git
    cd <repository-directory>
    ```
 
@@ -44,9 +44,10 @@ The Meeting Notes AI Agent is a Python application that utilizes Portia AI to pr
    ```
 
 5. Set up your environment variables:
-   - Create a `.env` file in the project root and add your Google API key:
+   - Create a `.env` file in the project root and add your Google API key and Portia API key:
      ```bash
      GOOGLE_API_KEY=your_google_api_key_here
+     PORTIA_API_KEY=_portia_api_key
      ```
 
 ## Usage
